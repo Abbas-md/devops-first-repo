@@ -6,3 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "CI Pipeline Running"
+      
+      - name: Build Project
+        run: mvn clean package
