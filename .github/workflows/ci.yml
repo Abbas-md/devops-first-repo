@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '21'
+          java-version: '11'
       - run: java --version
